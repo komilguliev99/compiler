@@ -1,0 +1,9 @@
+﻿  Main.cpp
+  Lex.cpp
+  FUini.cpp
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\fuini.cpp(18): error C2661: Bus::Bus: нет перегруженной функции, принимающей 2 аргументов
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\fuini.cpp(29): error C2084: функция "FU *LexIni(FU *,FU *)" уже имеет текст реализации
+  c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\fuini.cpp(20): note: см. предыдущее определение "LexIni"
+  Consts.cpp
+  Console.cpp
+  Создание кода...

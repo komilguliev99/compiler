@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (StrGen.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  StrGen.cpp
+  Main.cpp
+  List.cpp
+  Lex.cpp
+  FUini.cpp
+  Consts.cpp
+  Console.cpp
+  Bus.cpp
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\bus.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  StrGen.vcxproj -> C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\StrGen3\Debug\Compile.exe
+  StrGen.vcxproj -> C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\StrGen3\Debug\Compile.pdb (Partial PDB)

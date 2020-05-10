@@ -1,0 +1,37 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Compile.vcxproj, Compiler.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  stdafx.cpp
+  AluGeneral.cpp
+  Bus.cpp
+  Consts.cpp
+  Find.cpp
+  FUini.cpp
+  GraphTransf.cpp
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\GraphTransf.cpp(137,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  IndFileConvertOld.cpp
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(103,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(66,8): warning C4101: charVar: неиспользованная локальная переменная
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(149,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(165,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(209,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\IndFileConvertOld.cpp(225,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Lex.cpp
+  Console.cpp
+  List.cpp
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\List.cpp(290,53): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\List.cpp(294,67): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\List.cpp(351,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\List.cpp(367,12): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  LocationTable.cpp
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\LocationTable.cpp(90,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Navigator.cpp
+C:\Users\komil\Downloads\CompilerCore_work\StrGen\Navigator.cpp(80,27): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Search.cpp
+  Main.cpp
+  StrGen.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\komil\Downloads\CompilerCore_work\x64\Debug\CompilerCore.exe при последней инкрементной компоновке; выполняется полная компоновка
+  StrGen.vcxproj -> C:\Users\komil\Downloads\CompilerCore_work\x64\Debug\CompilerCore.exe

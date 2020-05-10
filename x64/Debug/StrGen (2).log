@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Compile.vcxproj, Compiler.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  stdafx.cpp
+  StrGen.cpp
+  Search.cpp
+  Main.cpp
+  LocationTable.cpp
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\locationtable.cpp(76): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  List.cpp
+  Lex.cpp
+  IndFileConvertOld.cpp
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\indfileconvertold.cpp(102): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\indfileconvertold.cpp(148): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\indfileconvertold.cpp(164): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\indfileconvertold.cpp(208): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\compilercore_work\strgen\indfileconvertold.cpp(224): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  GraphTransf.cpp
+  Find.cpp
+  FUini.cpp
+  Consts.cpp
+  Console.cpp
+  Bus.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore_work\x64\Debug\CompilerCore.exe при последней инкрементной компоновке; выполняется полная компоновка
+  StrGen.vcxproj -> C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore_work\x64\Debug\CompilerCore.exe
+  StrGen.vcxproj -> C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore_work\x64\Debug\CompilerCore.pdb (Partial PDB)

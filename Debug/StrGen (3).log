@@ -1,0 +1,3 @@
+﻿  FUini.cpp
+c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\fuini.cpp(30): error C2084: функция "FU *LexIni(FU *,FU *)" уже имеет текст реализации
+  c:\users\user\yandexdisk\методическая работа\дипломы 2019\куксин\strgen3\strgen\fuini.cpp(20): note: см. предыдущее определение "LexIni"

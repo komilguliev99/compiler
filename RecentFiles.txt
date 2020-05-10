@@ -1,0 +1,17 @@
+16 1
+C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore4 - копия1\StrGen\ProgNew3.oap 
+C:\Users\Salibek\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore_work\StrGen\ProgNew4.ind 
+C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore4 - копия1\StrGen\ProgNew3.ind 
+C:\Users\User\YandexDisk\Методическая работа\Дипломы 2019\Куксин\CompilerCore\StrGen\NewProg.oap 
+C:\Users\User\YandexDisk\Millicom\Degree.oap.txt 
+C:\Users\Сергей\YandexDisk\Методическая работа\Дипломы 2017\Ефимова\Разбор предложения.oap 
+C:\Users\Сергей\YandexDisk\Методическая работа\Дипломы 2017\Карасева\Confine3.oap 
+C:\Users\Сергей\YandexDisk\Методическая работа\Дипломы 2017\Карасева\Confine4.oap 
+C:\Users\Сергей\YandexDisk\Методическая работа\Дипломы 2017\Карасева\Confine2.txt 
+C:\Users\Салибек\YandexDisk\Millicom\МПНДА.oap 
+C:\Users\Salibek\YandexDisk\Millicom\OAAutomStack.oap 
+C:\Users\Салибек\YandexDisk\Millicom\OAAutomStack.oap 
+C:\Users\Салибек\YandexDisk\Millicom\REnv.oap 
+C:\Users\Салибек\YandexDisk\Millicom\Шалыто.oap 
+C:\Users\Сергей\YandexDisk\Millicom\Шалыто.oap 
+C:\Users\Сергей\YandexDisk\Millicom\InOut.oap 
