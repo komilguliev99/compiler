@@ -2,44 +2,51 @@
 #include "Consts.h"
 #include <vector>
 
-struct ALU // АЛУ
+class Accumulator
 {
-	LoadPoint Accmulater; // Аккумулятор АЛУ
-	ip* AluPC; // Счетчик адреса АЛУ
+	LoadPoint	accumulator;
+
+	void		add(LoadPoint *load);
+	void		sub(LoadPoint *load);
+	void		div(LoadPoint *load);
+	void		mult(LoadPoint *load);
+
+public:
+	void		calc(int MK, LoadPoint *load);
+	LoadPoint	*get_accumulator();
+}
+
+struct ALU // пїЅпїЅпїЅ
+{
+	LoadPoint Accmulater; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+	ip* AluPC; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 	//...
 };
 
-struct			local_var // Локальная переменная
+struct ThreadContext // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 {
-	string		name;	  // Названия переменной 
-	void*		value;    // Значения
-	char		type;	  // тип переменной
-};
-
-struct			accumulator // Аккумулятор
-{
-	void*		value;		// значение
-	char		type;		// тип
-};
-
-
-struct ThreadContext // Контекст вычислительной нити
-{
-	vector <ALU> AluStack; // АЛУ
-//	LoadPoint Accmulater; // Аккумулятор АЛУ
-	ip* ThreadPC=nullptr; // Счетчик адреса АЛУ
-	ip* StartPointer = nullptr; // Адрес ИК начала программы
+	vector <ALU> AluStack; // пїЅпїЅпїЅ
+//	LoadPoint Accmulater; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+	ip* ThreadPC=nullptr; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+	ip* StartPointer = nullptr; // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+public:
+	~ThreadContext() {
+		AluStack.clear(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		// ...
+	}
 };
 
 class AluGeneral : public FU
 {
 private:
-	vector <ThreadContext> TreadStack; // Вектор контекстов вычислительных нитей
+	vector <ThreadContext> TreadStack; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 	int breakCounter = 0;
 public:
 	void ProgFU(int MK, LoadPoint Load) override;
 	AluGeneral(FU* BusContext, FU* Templ) : FU(BusContext) {
 		Bus = BusContext;
+		ProgFU(0, { 0,nullptr });
 	};
 	AluGeneral() : FU() {
 		Bus = nullptr;
